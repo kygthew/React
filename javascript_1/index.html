@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Runtime and Async</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>JavaScript Runtime and Async</h1>
+
+    <h2>Tasks</h2>
+
+    <button id="runAllButton">
+        Run All Tasks
+    </button>
+
+    <div id="tasks"></div>
+
+    <h2>Sequential vs Concurrent</h2>
+
+    <button id="sequentialButton">
+        Run Sequential
+    </button>
+
+    <button id="concurrentButton">
+        Run Concurrent
+    </button>
+
+    <div class="results">
+        <p>
+            Sequential time:
+            <span id="sequentialTime">-</span>
+        </p>
+
+        <p>
+            Concurrent time:
+            <span id="concurrentTime">-</span>
+        </p>
+    </div>
+
+    <h2>Event Loop</h2>
+
+    <button id="eventLoopButton">
+        Run Event Loop Demo
+    </button>
+
+    <p>
+        Open <strong>F12 → Console</strong> to see the Event Loop output.
+    </p>
+
+    <p id="allFinished"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
