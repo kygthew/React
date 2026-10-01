@@ -157,6 +157,13 @@ document.getElementById("concurrentButton")
 async function eventLoopDemo() {
     console.log("1. Start");
 
+    Promise.resolve().then(() => {
+        console.log("9. Promise 3");
+        Promise.resolve().then(() => {
+            console.log("10. Promise child of 3");
+        });
+    }); 
+
     setTimeout(() => {
         console.log("2. Timer 1");
     }, 0);
