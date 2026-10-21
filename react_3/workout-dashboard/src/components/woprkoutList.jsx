@@ -13,6 +13,7 @@ function WorkoutList({
         const isVisible =
           filter === "All" || exercise.status === filter;
 
+          if (!isVisible) return null;
         return (
           <div
             style={{

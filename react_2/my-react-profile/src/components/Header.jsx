@@ -1,8 +1,9 @@
+import myPhoto from '../assets/pthoto.png';
 function Header() {
   return (
     <header className="header">
       <img
-        src="https://i.pravatar.cc/200"
+        src={myPhoto}
         alt="Profile"
         className="profile-image"
       />
