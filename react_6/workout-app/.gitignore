@@ -1,0 +1,7 @@
+node_modules
+dist
+*.log
+
+# Secrets — Firebase config lives here, never commit it
+.env.local
+.env.*.local

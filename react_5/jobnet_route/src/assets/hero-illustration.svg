@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fa709a"/>
+      <stop offset="0.5" stop-color="#9668ff"/>
+      <stop offset="1" stop-color="#6ee7d5"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#272043"/>
+      <stop offset="1" stop-color="#17162e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9668ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9668ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="170" r="160" fill="url(#glow)"/>
+  <g transform="rotate(-9 130 120)">
+    <rect x="40" y="70" width="190" height="100" rx="18" fill="url(#card)" stroke="#49406c"/>
+    <rect x="58" y="90" width="36" height="36" rx="10" fill="#403067"/>
+    <rect x="106" y="94" width="100" height="10" rx="5" fill="#cfc3ff" opacity="0.8"/>
+    <rect x="106" y="112" width="64" height="8" rx="4" fill="#a5a6c4" opacity="0.6"/>
+    <rect x="58" y="140" width="44" height="14" rx="5" fill="#15352f" stroke="#28554c"/>
+    <rect x="108" y="140" width="44" height="14" rx="5" fill="#26213b" stroke="#37314f"/>
+  </g>
+  <g transform="rotate(7 270 220)">
+    <rect x="170" y="170" width="200" height="104" rx="18" fill="url(#card)" stroke="#a17aff"/>
+    <rect x="188" y="190" width="36" height="36" rx="10" fill="url(#g1)"/>
+    <rect x="236" y="194" width="110" height="10" rx="5" fill="#f5f2ff" opacity="0.85"/>
+    <rect x="236" y="212" width="70" height="8" rx="4" fill="#a5a6c4" opacity="0.6"/>
+    <rect x="188" y="242" width="54" height="16" rx="6" fill="#26213b" stroke="#37314f"/>
+    <path d="M344 244c-4-4-11-4-11 3 0 5 11 11 11 11s11-6 11-11c0-7-7-7-11-3z" fill="#fa709a"/>
+  </g>
+  <g transform="translate(292 70)">
+    <circle r="42" fill="url(#g1)"/>
+    <path d="M0 -24V24M-24 0H24M-17 -17L17 17M17 -17L-17 17" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <circle cx="70" cy="250" r="6" fill="#8cf0cf"/>
+  <circle cx="352" cy="150" r="4" fill="#fa709a"/>
+  <circle cx="160" cy="40" r="3" fill="#c5a4ff"/>
+</svg>
